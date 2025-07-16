@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+html, body{
+    margin: 0;
+  padding: 0;
+  
+}
+
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* .navbar--{
+
+} */
+
+
+
+.navbar{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    width: 100vw;
+    height: 60px;
+}
+
+
+
+#list{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.inf{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+#lupa{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+
+
+
+
+
+
+.button1{
+    box-sizing: border-box;
+    border: 0;
+    background-color: black;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    border-radius: 100px;
+
+}
+
+
+
+#menu{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+.page1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+
+
+
+
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    margin-top: 40px;
+    background: linear-gradient(to left, black, green);
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .Hidden{
+    color: #333131;
+
+} */
+
+
+.p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 450;
+}
+
+.sq1{
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    background-color: #d2d2d2;
+    border-radius: 50px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+
+.sq2{
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #d2d2d2;
+}
+
+
+.sq3{
+    position: absolute;
+    background-color: #d2d2d2;
+
+    width: 140px;
+    height: 120px;
+    border-radius: 50px;
+margin-left: 190px;
+margin-top: 184px;
+z-index: 2;
+}
+
+
+.button2{
+    width: 170px;
+    height: 40px;
+    background-color: #3d3a3a;
+    box-sizing: border-box;
+    border: 0;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 280px;
+    margin-left: 20px;
+    border-radius: 100px;
+    font-size: large;
+}
